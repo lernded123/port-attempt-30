@@ -245,6 +245,7 @@ header.sticky{
 
 .center-text h2{
     font-size: var(--h2-font);
+    font-size: 40px;
 
 }
 
@@ -258,22 +259,26 @@ header.sticky{
 
 .box{
     padding: 90px 40px 66px;
-    background: #2d343f;
+    /* background: #2d343f; */
     border-radius: 28px;
     border: 1px solid transparent;
-    box-shadow: 0 0 5px var(--main-color);
+    /* box-shadow: 0 0 5px var(--main-color); */
     transition: all .50s ease;
     cursor: pointer;
 }
 
 .box img{
     margin-bottom: 20px;
+    position: relative;
+    left: 90px;
+    
 
 }
 .box h3{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .box p{
@@ -282,6 +287,7 @@ header.sticky{
     color: var(--other-color);
     line-height: 30px;
     margin-bottom: 20px;
+    font-size: 15px;
 
 }
 
@@ -313,6 +319,8 @@ header.sticky{
     border: 1px solid var(--main-color);
     transform: translateY(-5px) scale(1.03);
 }
+
+/* Portfolio */
 
 .portfolio{
     background: var(--second-bg-color);
@@ -352,9 +360,9 @@ header.sticky{
 }
 
 .row h5{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
-    color: var(--other-color);
+    
 
 }
 
@@ -372,10 +380,11 @@ header.sticky{
 }
 
 .row h4{
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1.4;
+    color: var(--other-color);
 }
 
 .row:hover{
@@ -383,6 +392,9 @@ header.sticky{
     transform: translateY(-5px) scale(1.03);
     cursor: pointer;
 }
+
+
+/* contact form */
 
 .contact-form{
     display: flex;
